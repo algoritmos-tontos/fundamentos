@@ -28,13 +28,6 @@ l2. 3
 l3. 3               
 ```
 
-Trinagulo Escaleno:
-```
-l1. 4      
-l2. 3   
-l3. 2               
-```
-
 
 Error de Trinagulo:
 ```
