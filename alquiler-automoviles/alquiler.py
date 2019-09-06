@@ -7,7 +7,11 @@ def __main__():
     else:
         p = d * 30 + (d - 300) * 0.10
 
-    print("""Distancia recorrida: {distancia} \nValor a pagar: ${valor}""".format(distancia=d, valor=p))
+    i = p * 0.18
+    p = p - i
+    print(
+        """Distancia recorrida: {distancia} \nDistancia: ${valor} \nImpuestos: ${imp} \nTotal:{t}""".format(
+            distancia=d, valor=p,imp=i, t=p + i))
 
 
 if __name__ == '__main__':
