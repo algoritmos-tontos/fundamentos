@@ -1,7 +1,7 @@
 def __main__():
     d1 = int(input('Ingrese dado 1: '))
-    d2 = int(input('Ingrese dado 1: '))
-    d3 = int(input('Ingrese dado 1: '))
+    d2 = int(input('Ingrese dado 2: '))
+    d3 = int(input('Ingrese dado 3: '))
 
     if d1 == 6 and d1 == d2 == d3:
         print('Puntuación: Excelente')
