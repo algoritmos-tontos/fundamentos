@@ -1,0 +1,3 @@
+### Votación presidencia club
+
+Se cuenta con los votos obtenidos por Juan, Pedro y Maria en una elección democrática a la presidencia de un club. Para ganar la elección se debe obtener como mínimo el 50% de los votos mas 1. EN caso que no haya un ganador se repite la elección en una segunda vuelta. Van a la segunda vuelta los que obtengan la mas alta votación ó los tres en caso de producirse un empate doble (entre los dos con menor votación) o un empate triple. Diseñe un algoritmo que determine el resultado de la elección.
