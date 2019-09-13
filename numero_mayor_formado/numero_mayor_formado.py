@@ -3,6 +3,7 @@ def __main__():
     i = 0
     n = list(n)
     while i < len(n):
+        # TODO: this sorting process is not optimum for many numbers
         if i > 0:
             a = n[i]
             if n[i] > n[i - 1]:

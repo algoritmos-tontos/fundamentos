@@ -18,6 +18,7 @@ def __main__():
 
     i = 0
     while i < len(j):
+        # TODO: this sorting process is not optimum for many numbers
         if i > 0:
             n = j[i]
             if j[i] > j[i - 1]:
