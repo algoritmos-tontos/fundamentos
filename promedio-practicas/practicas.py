@@ -15,6 +15,7 @@ def __main__():
         p += n[i]
 
     print("""Promedio: {p}""".format(p=p / 3))
+    print("""Nota eliminada: {d}""".format(d=n[len(n)-1]))
 
 
 if __name__ == '__main__':
