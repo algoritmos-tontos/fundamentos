@@ -1,12 +1,17 @@
 def __main__():
-    n = input('Ingrese un número: ')
+    n1 = input('Ingrese un número: ')
     i = 0
-    n = list(n)
+    n = list(n1)
+    p = True
+    if int(n1) < 0:
+        p = False
+
+
     while i < len(n):
         # TODO: this sorting process is not optimum for many numbers
         if i > 0:
             a = n[i]
-            if n[i] > n[i - 1]:
+            if n[i] > n[i - 1] and p or n[i] < n[i - 1] and not p:
                 n[i] = n[i - 1]
                 n[i - 1] = a
                 i = 0
