@@ -1,12 +1,11 @@
 def __main__():
     n1 = input('Ingrese un número: ')
-    i = 0
     n = list(n1)
     p = True
     if int(n1) < 0:
         p = False
 
-
+    i = 0
     while i < len(n):
         # TODO: this sorting process is not optimum for many numbers
         if i > 0:

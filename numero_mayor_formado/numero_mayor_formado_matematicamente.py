@@ -6,10 +6,9 @@ def __main__():
         n = n.replace('-', '')
 
     j = []
-    a = None
     for i in range(0, len(n)):
         s = '1' + ('0' * (len(n) - 1 - i))
-        if a is not None:
+        if i > 0:
             if i == len(n) - 1:
                 d = a
             else:
