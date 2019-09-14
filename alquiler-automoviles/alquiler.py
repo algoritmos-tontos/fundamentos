@@ -1,11 +1,11 @@
 def __main__():
     d = int(input('Ingrese km recorridos: '))
-    if d < 301:
-        p = d * 30
-    elif d < 1001:
-        p = d * 30 + (d - 300) * 0.15
+    if d > 1000:
+        p = 30 + (d - 300) * 0.10
+    elif d > 300:
+        p = 30 + (d - 300) * 0.15
     else:
-        p = d * 30 + (d - 300) * 0.10
+        p = 30
 
     i = p * 0.18
     p = p - i
