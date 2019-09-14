@@ -1,7 +1,7 @@
 def __main__():
-    n1 = int(input('Ingrese fecha nacimiento Juan: '))
-    n2 = int(input('Ingrese fecha nacimiento Mario: '))
-    n3 = int(input('Ingrese fecha nacimiento Pedro: '))
+    n1 = int(input('Ingrese fecha (año) de nacimiento Juan: '))
+    n2 = int(input('Ingrese fecha (año) de nacimiento Mario: '))
+    n3 = int(input('Ingrese fecha (año) de nacimiento Pedro: '))
 
     c1 = (n1 % 10)
     rs_1 = n1 - c1
